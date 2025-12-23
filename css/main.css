@@ -9,7 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Анимация появления всей страницы */
 @keyframes fadeInBody {
   0% {
     opacity: 0;
@@ -19,7 +18,6 @@ body {
   }
 }
 
-/* Анимации конструктора */
 @keyframes assembleFromLeft {
   0% {
     opacity: 0;
@@ -95,7 +93,6 @@ body {
   }
 }
 
-/* Анимация линий (проявляются) */
 @keyframes lineDraw {
   0% {
     opacity: 0;
@@ -107,7 +104,6 @@ body {
   }
 }
 
-/* Анимация текста (появляется буква за буквой) */
 @keyframes textReveal {
   0% {
     opacity: 0;
@@ -130,7 +126,6 @@ body {
   overflow: hidden;
 }
 
-/* Левая колонка - выезжает слева */
 .v4_3 {
   width: 340px;
   height: 1483px;
@@ -161,7 +156,6 @@ body {
   overflow: hidden;
 }
 
-/* Внутренние элементы левой колонки */
 .v4_5, .v4_6, .v4_7, .v4_10, .v4_13 {
   opacity: 0;
   animation: assembleScale 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
@@ -319,8 +313,6 @@ body {
   text-align: left;
 }
 
-/* Правая колонка - появляется с разных сторон */
-/* Первая секция */
 .v4_16 {
   width: 809px;
   height: 47px;
@@ -365,7 +357,6 @@ body {
   text-align: left;
 }
 
-/* Вторая секция */
 .v4_19 {
   width: 809px;
   height: 47px;
@@ -410,7 +401,6 @@ body {
   text-align: left;
 }
 
-/* Третья секция */
 .v4_22 {
   width: 809px;
   height: 37px;
@@ -455,7 +445,6 @@ body {
   text-align: left;
 }
 
-/* Основные контентные блоки */
 .v4_25 {
   width: 809px;
   height: 189px;
@@ -576,7 +565,6 @@ body {
   overflow: hidden;
 }
 
-/* Текстовые элементы с задержкой */
 .v4_27, .v4_28, .v4_29, .v4_30, .v4_31,
 .v4_34, .v4_35, .v4_36, .v4_37, .v4_38,
 .v4_41, .v4_42, .v4_43, .v4_44, .v4_45,
@@ -585,7 +573,6 @@ body {
   animation: textReveal 0.4s ease forwards;
 }
 
-/* Последовательность появления текста */
 .v4_31 { animation-delay: 0.7s; }
 .v4_27 { animation-delay: 0.75s; }
 .v4_28 { animation-delay: 0.8s; }
@@ -612,7 +599,6 @@ body {
 .v4_53 { animation-delay: 1.55s; }
 .v4_54 { animation-delay: 1.6s; }
 
-/* Заголовок */
 .v4_58 {
   width: 793px;
   color: rgba(22,137,0,1);
@@ -627,7 +613,6 @@ body {
   text-align: left;
 }
 
-/* Верхняя панель */
 .v4_59 {
   width: 100%;
   height: 124px;
@@ -639,7 +624,6 @@ body {
   animation: assembleFromTop 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s forwards;
 }
 
-/* Логотип */
 .v4_60 {
   width: 414px;
   height: 214px;
@@ -683,7 +667,6 @@ body {
   text-align: left;
 }
 
-/* Изображение в левой колонке */
 .v4_63 {
   width: 333px;
   height: 397px;
@@ -699,7 +682,6 @@ body {
   animation: assembleScale 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
 }
 
-/* Разделительные линии */
 .v11_2 {
   width: 0;
   height: 2px;
@@ -739,7 +721,6 @@ body {
   animation: lineDraw 0.5s ease 1s forwards;
 }
 
-/* Адаптивность для пользователей, предпочитающих уменьшенное движение */
 @media (prefers-reduced-motion: reduce) {
   body, .v4_3, .v4_16, .v4_19, .v4_22, .v4_25, .v4_32, 
   .v4_39, .v4_46, .v4_58, .v4_59, .v4_60, .v4_63,

@@ -11,7 +11,7 @@ body {
 
 @keyframes fadeInBody {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     opacity: 1;
@@ -20,7 +20,7 @@ body {
 
 @keyframes assembleFromLeft {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: translateX(-80px) rotate(-3deg);
   }
   60% {
@@ -35,7 +35,7 @@ body {
 
 @keyframes assembleFromRight {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: translateX(80px) rotate(3deg);
   }
   60% {
@@ -50,7 +50,7 @@ body {
 
 @keyframes assembleFromTop {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(-40px) scale(0.9);
   }
   60% {
@@ -65,7 +65,7 @@ body {
 
 @keyframes assembleFromBottom {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(40px) scale(0.9);
   }
   60% {
@@ -80,7 +80,7 @@ body {
 
 @keyframes assembleScale {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: scale(0.7) rotate(-8deg);
   }
   70% {
@@ -95,7 +95,7 @@ body {
 
 @keyframes lineDraw {
   0% {
-    opacity: 0;
+    opacity: 1;
     width: 0;
   }
   100% {
@@ -106,7 +106,7 @@ body {
 
 @keyframes textReveal {
   0% {
-    opacity: 0;
+    opacity: 1;
     clip-path: inset(0 100% 0 0);
   }
   100% {
@@ -133,7 +133,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 18px;
   left: 98px;
@@ -157,7 +157,7 @@ body {
 }
 
 .v4_5, .v4_6, .v4_7, .v4_10, .v4_13 {
-  opacity: 0;
+  opacity: 1;
   animation: assembleScale 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
 }
 
@@ -224,7 +224,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 20px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.5s ease 0.7s forwards;
   text-align: left;
 }
@@ -266,7 +266,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 20px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.5s ease 0.8s forwards;
   text-align: left;
 }
@@ -308,7 +308,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 16px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.5s ease 0.9s forwards;
   text-align: left;
 }
@@ -320,7 +320,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 398px;
   left: 530px;
@@ -352,7 +352,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 24px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.6s ease 0.6s forwards;
   text-align: left;
 }
@@ -364,7 +364,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 659px;
   left: 532px;
@@ -396,7 +396,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 24px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.6s ease 0.8s forwards;
   text-align: left;
 }
@@ -408,7 +408,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 902px;
   left: 527px;
@@ -440,7 +440,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 24px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.6s ease 1s forwards;
   text-align: left;
 }
@@ -452,7 +452,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 466px;
   left: 530px;
@@ -482,7 +482,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 727px;
   left: 532px;
@@ -512,7 +512,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 967px;
   left: 532px;
@@ -542,7 +542,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 1149px;
   left: 532px;
@@ -569,7 +569,7 @@ body {
 .v4_34, .v4_35, .v4_36, .v4_37, .v4_38,
 .v4_41, .v4_42, .v4_43, .v4_44, .v4_45,
 .v4_48, .v4_49, .v4_50, .v4_51, .v4_52, .v4_53, .v4_54 {
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.4s ease forwards;
 }
 
@@ -608,7 +608,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 48px;
-  opacity: 0;
+  opacity: 1;
   animation: assembleFromTop 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.3s forwards;
   text-align: left;
 }
@@ -617,7 +617,7 @@ body {
   width: 100%;
   height: 124px;
   background: rgba(248,234,175,1);
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 57px;
   left: 0px;
@@ -631,7 +631,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 18px;
   left: 100px;
@@ -662,7 +662,7 @@ body {
   font-family: Pacifico;
   font-weight: Regular;
   font-size: 89px;
-  opacity: 0;
+  opacity: 1;
   animation: textReveal 0.7s ease 0.4s forwards;
   text-align: left;
 }
@@ -674,7 +674,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 387px;
   left: 98px;
